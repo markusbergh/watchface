@@ -12,8 +12,8 @@ class ConnectIQView extends Ui.WatchFace {
 	var screenShape;
 	var screenCenterPoint;
 	var dateBuffer;
-	var offscreenBuffer;
-	var curClip;
+    var offscreenBuffer;
+    var curClip;
 	var posnInfo = null;
 
     function initialize() {
@@ -25,7 +25,7 @@ class ConnectIQView extends Ui.WatchFace {
     // Load your resources here
     function onLayout(dc) {
         setLayout(Rez.Layouts.WatchFace(dc));
-        screenCenterPoint = [dc.getWidth()/2, dc.getHeight()/2];
+        screenCenterPoint = [dc.getWidth() / 2, dc.getHeight() / 2];
         
         // If this device supports BufferedBitmap, allocate the buffers we use for drawing
         if(Toybox.Graphics has :BufferedBitmap) {
@@ -69,6 +69,9 @@ class ConnectIQView extends Ui.WatchFace {
     		var width;
         var height;
         var targetDc = dc;
+        var hourHandAngle;
+        var minuteHandAngle;
+        var clockTime = System.getClockTime();
         
         /*
         if(null != offscreenBuffer) {
@@ -82,24 +85,67 @@ class ConnectIQView extends Ui.WatchFace {
         }
         */
         
-        width = targetDc.getWidth();
+ 		width = targetDc.getWidth();
         height = targetDc.getHeight();
     
     		// Clear and fill background
     		targetDc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_WHITE);
     		targetDc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
         
-        targetDc.setColor(Gfx.COLOR_DK_GREEN, Gfx.COLOR_DK_GRAY);
-        drawTickMarks(targetDc);
+        // Draw tick marks
+        targetDc.setColor(Gfx.COLOR_DK_GRAY, Gfx.COLOR_DK_GRAY);
+        targetDc.setPenWidth(1);
         
-        var HRH = ActMon.getHeartRateHistory(1, true);
-        var HRS = HRH.next();
+        var radian, points;
+ 
+        for (var i = 0; i < 60; i++) {
+            // Skip the (three or more) ticks at the top of the hour
+            if (i >= 0 && i <= 1 ||
+                i >= 14 && i <= 16 ||
+                i >= 29 && i <= 31 ||
+                i >= 44 && i <= 46 ||
+                i == 59) {
+                continue;
+            }
         
-        dc.drawText(width / 2, 25, Gfx.FONT_MEDIUM, "max=" + HRH.getMax(), Gfx.TEXT_JUSTIFY_CENTER);
-        dc.drawText(width / 2, 75, Gfx.FONT_MEDIUM, "hr=" + HRS.heartRate, Gfx.TEXT_JUSTIFY_CENTER);
+            points = calculateLineFromCircleEdge(width / 2, 6, Math.toRadians(6 * i));
+            targetDc.drawLine(points[0], points[1], points[2], points[3]);
+        }
         
-        drawBattery(targetDc, 0, 0);
-        drawArborInCenter(targetDc, width, height);
+        targetDc.setColor(Gfx.COLOR_LT_GRAY, Gfx.COLOR_LT_GRAY);
+        targetDc.setPenWidth(5);
+        
+        for (var i = 0; i < 12; i++) {
+            if (i == 0 || i == 3 || i == 6 || i == 9) {
+                continue;
+            }
+            
+            radian = Math.toRadians(30 * i);
+            points = calculateLineFromCircleEdge(width / 2, 15, radian);
+            targetDc.drawLine(points[0], points[1], points[2], points[3]);
+        }
+        
+        // Draw battery
+        drawBattery(targetDc, width / 2 - BATTERY_ICON_WIDTH / 2, height - 60);
+        
+        // Draw time
+        targetDc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        
+        hourHandAngle = (((clockTime.hour % 12) * 60) + clockTime.min);
+        hourHandAngle = hourHandAngle / (12 * 60.0);
+        hourHandAngle = hourHandAngle * Math.PI * 2;
+        targetDc.fillPolygon(generateHandCoordinates(screenCenterPoint, hourHandAngle, 40, 0, 3));
+        
+        minuteHandAngle = (clockTime.min / 60.0) * Math.PI * 2;
+        targetDc.fillPolygon(generateHandCoordinates(screenCenterPoint, minuteHandAngle, 70, 0, 3));
+        
+        // Draw some text data
+        var activityInfo = ActMon.getInfo();
+        var string = activityInfo.steps.toString() + " / " + activityInfo.stepGoal.toString() + " steps";
+        dc.drawText(width / 2, 40, Gfx.FONT_SYSTEM_XTINY, string, Gfx.TEXT_JUSTIFY_CENTER);
+        
+        // Draw rest
+        drawArborInCenter(targetDc, width, height);        
         drawHourLabels(targetDc, width, height);
     }
 
@@ -166,6 +212,28 @@ class ConnectIQView extends Ui.WatchFace {
         targetDc.fillCircle(width / 2, height / 2, 7);
         targetDc.setColor(Graphics.COLOR_BLACK,Graphics.COLOR_BLACK);
         targetDc.drawCircle(width / 2, height / 2, 7);
+    }
+    
+    // This function is used to generate the coordinates of the 4 corners of the polygon
+    // used to draw a watch hand. The coordinates are generated with specified length,
+    // tail length, and width and rotated around the center point at the provided angle.
+    // 0 degrees is at the 12 o'clock position, and increases in the clockwise direction.
+    function generateHandCoordinates(centerPoint, angle, handLength, tailLength, width) {
+        // Map out the coordinates of the watch hand
+        var coords = [[-(width / 2), tailLength], [-(width / 2), -handLength], [width / 2, -handLength], [width / 2, tailLength]];
+        var result = new [4];
+        var cos = Math.cos(angle);
+        var sin = Math.sin(angle);
+
+        // Transform the coordinates
+        for (var i = 0; i < 4; i += 1) {
+            var x = (coords[i][0] * cos) - (coords[i][1] * sin) + 0.5;
+            var y = (coords[i][0] * sin) + (coords[i][1] * cos) + 0.5;
+
+            result[i] = [centerPoint[0] + x, centerPoint[1] + y];
+        }
+
+        return result;
     }
     
     function drawHourLabels(targetDc, width, height) {
@@ -238,25 +306,29 @@ class ConnectIQView extends Ui.WatchFace {
 				dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW);
 				dc.fillRectangle(batteryX + 1, batteryY + 1, BATTERY_ICON_WIDTH * 0.25 - 1, 10);
 			}
-			 			
-
-			/*
-    			switch (battery) {
-    				case battery >= 40:
-    					dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW);
-    					dc.fillRectangle(batteryX + 8, batteryY + 1, 4, 10);		
-    				break;
-    			}
-    			*/
 
     		}
     }
     
-    function setPosition(info) {
-    		System.print(info);
-    		
-        posnInfo = info;
-        Ui.requestUpdate();
+    function drawHeartRate() {
+        var HRH = ActMon.getHeartRateHistory(1, true);
+        var HRS = HRH.next();
+        
+        dc.drawText(width / 2, 25, Gfx.FONT_MEDIUM, "max=" + HRH.getMax(), Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText(width / 2, 75, Gfx.FONT_MEDIUM, "hr=" + HRS.heartRate, Gfx.TEXT_JUSTIFY_CENTER);
+    }
+    
+    function calculateLineFromCircleEdge(arcRadius, lineLength, radian) {
+        var pointX = ((arcRadius-lineLength) * Math.cos(radian)).toNumber() + screenCenterPoint[0];
+        var endX = (arcRadius * Math.cos(radian)).toNumber() + screenCenterPoint[0];
+        var pointY = ((arcRadius-lineLength) * Math.sin(radian)).toNumber() + screenCenterPoint[1];
+        var endY = (arcRadius * Math.sin(radian)).toNumber() + screenCenterPoint[1];
+        
+        return [pointX, pointY, endX, endY];
+    }
+    
+    function degreesToRadians(degrees) {
+        return (degrees * Math.PI / 180);
     }
 
 }
