@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <pcToLineNum>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQApp.mc" lineNum="8" pc="268435456" symbol="initialize"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQApp.mc" lineNum="9" pc="268435460" symbol="initialize"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQApp.mc" lineNum="13" pc="268435479" symbol="onStart"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQApp.mc" lineNum="18" pc="268435484" symbol="onStop"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQApp.mc" lineNum="22" pc="268435489" symbol="onPosition"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQApp.mc" lineNum="23" pc="268435493" symbol="onPosition"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQApp.mc" lineNum="27" pc="268435514" symbol="getInitialView"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQApp.mc" lineNum="28" pc="268435518" symbol="getInitialView"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQApp.mc" lineNum="29" pc="268435548" symbol="getInitialView"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="19" pc="268435572" symbol="initialize"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="20" pc="268435576" symbol="initialize"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="22" pc="268435594" symbol="initialize"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="26" pc="268435626" symbol="onLayout"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="27" pc="268435630" symbol="onLayout"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="28" pc="268435667" symbol="onLayout"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="31" pc="268435731" symbol="onLayout"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="35" pc="268435754" symbol="onLayout"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="50" pc="268435936" symbol="onLayout"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="55" pc="268436039" symbol="onLayout"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="58" pc="268436048" symbol="onLayout"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="64" pc="268436058" symbol="onShow"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="68" pc="268436063" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="69" pc="268436067" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="70" pc="268436067" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="71" pc="268436067" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="85" pc="268436071" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="86" pc="268436084" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="89" pc="268436097" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="90" pc="268436133" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="92" pc="268436177" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="93" pc="268436213" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="95" pc="268436227" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="96" pc="268436251" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="98" pc="268436264" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="99" pc="268436330" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="101" pc="268436393" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="102" pc="268436417" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="103" pc="268436435" symbol="onUpdate"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="109" pc="268436454" symbol="onHide"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="113" pc="268436459" symbol="onExitSleep"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="117" pc="268436464" symbol="onEnterSleep"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="121" pc="268436469" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="122" pc="268436473" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="123" pc="268436486" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="126" pc="268436499" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="127" pc="268436525" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="128" pc="268436525" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="129" pc="268436525" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="130" pc="268436535" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="133" pc="268436545" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="137" pc="268436599" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="138" pc="268436626" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="139" pc="268436653" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="140" pc="268436680" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="141" pc="268436707" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="143" pc="268436727" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="144" pc="268436752" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="145" pc="268436779" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="146" pc="268436806" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="147" pc="268436833" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="148" pc="268436860" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="151" pc="268436911" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="152" pc="268436980" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="153" pc="268437004" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="154" pc="268437029" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="156" pc="268437045" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="158" pc="268437241" symbol="drawTickMarks"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="163" pc="268437463" symbol="drawArborInCenter"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="165" pc="268437467" symbol="drawArborInCenter"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="166" pc="268437507" symbol="drawArborInCenter"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="167" pc="268437540" symbol="drawArborInCenter"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="168" pc="268437580" symbol="drawArborInCenter"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="171" pc="268437614" symbol="drawHourLabels"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="173" pc="268437618" symbol="drawHourLabels"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="175" pc="268437656" symbol="drawHourLabels"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="176" pc="268437710" symbol="drawHourLabels"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="177" pc="268437773" symbol="drawHourLabels"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="178" pc="268437830" symbol="drawHourLabels"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="181" pc="268437891" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="183" pc="268437895" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="184" pc="268437918" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="186" pc="268437931" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="189" pc="268437948" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="190" pc="268437961" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="193" pc="268437974" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="194" pc="268438010" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="197" pc="268438042" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="198" pc="268438078" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="203" pc="268438116" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="204" pc="268438127" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="205" pc="268438163" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="207" pc="268438216" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="208" pc="268438227" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="211" pc="268438283" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="212" pc="268438294" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="215" pc="268438350" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="216" pc="268438361" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="219" pc="268438417" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="220" pc="268438428" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="223" pc="268438484" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="224" pc="268438495" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="227" pc="268438548" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="228" pc="268438584" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="234" pc="268438669" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="235" pc="268438680" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="236" pc="268438716" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="237" pc="268438772" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="238" pc="268438783" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="239" pc="268438819" symbol="drawBattery"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="255" pc="268438876" symbol="setPosition"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="256" pc="268438880" symbol="setPosition"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="258" pc="268438900" symbol="setPosition"/>
+        <entry filename="/Users/markusbergh/eclipse-workspace/Connect IQ/./source/ConnectIQView.mc" lineNum="259" pc="268438910" symbol="setPosition"/>
+        <entry filename="Rez" lineNum="18" pc="268438927" symbol="WatchFace"/>
+        <entry filename="Rez" lineNum="22" pc="268438939" symbol="WatchFace"/>
+        <entry filename="Rez" lineNum="23" pc="268439102" symbol="WatchFace"/>
+        <entry filename="Rez" lineNum="24" pc="268439127" symbol="WatchFace"/>
+        <entry filename="Rez" lineNum="25" pc="268439179" symbol="WatchFace"/>
+        <entry filename="Rez" lineNum="28" pc="268439225" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="18" symbol="dateBuffer"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="25" method="true" symbol="drawBattery"/>
+        <entry field="true" id="10" symbol="BATTERY_ICON_WIDTH"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="19" symbol="offscreenBuffer"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="22" method="true" symbol="drawTickMarks"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8390101" object="true" symbol="BufferedBitmap"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="16" symbol="AppName"/>
+        <entry field="true" id="11" symbol="BATTERY_ICON_HEIGHT"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry id="12" object="true" symbol="ConnectIQView"/>
+        <entry field="true" id="15" symbol="LauncherIcon"/>
+        <entry id="8389660" symbol="palette"/>
+        <entry id="9" object="true" symbol="ConnectIQApp"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="8389670" symbol="screenShape"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="17" symbol="screenCenterPoint"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="21" symbol="posnInfo"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry id="28" method="true" symbol="onPosition"/>
+        <entry id="14" module="true" symbol="Layouts"/>
+        <entry id="8388642" module="true" symbol="Position"/>
+        <entry field="true" id="27" symbol="connectIQView"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="26" method="true" symbol="setPosition"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="20" symbol="curClip"/>
+        <entry id="24" method="true" symbol="drawHourLabels"/>
+        <entry id="13" module="true" symbol="Menus"/>
+        <entry id="23" method="true" symbol="drawArborInCenter"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435484" name="state" stackId="1" startPc="268435479"/>
+        <entry endPc="268435489" name="state" stackId="1" startPc="268435484"/>
+        <entry endPc="268435514" name="info" stackId="1" startPc="268435489"/>
+        <entry endPc="268436058" name="dc" stackId="1" startPc="268435626"/>
+        <entry endPc="268436453" name="height" stackId="3" startPc="268436067"/>
+        <entry endPc="268436453" name="HRS" stackId="6" startPc="268436067"/>
+        <entry endPc="268436453" name="HRH" stackId="5" startPc="268436067"/>
+        <entry endPc="268436453" name="targetDc" stackId="4" startPc="268436067"/>
+        <entry endPc="268436453" name="width" stackId="2" startPc="268436067"/>
+        <entry endPc="268436454" name="dc" stackId="1" startPc="268436063"/>
+        <entry endPc="268436908" name="i" stackId="10" startPc="268436599"/>
+        <entry endPc="268436908" name="eY" stackId="7" startPc="268436525"/>
+        <entry endPc="268436908" name="eX" stackId="6" startPc="268436525"/>
+        <entry endPc="268436908" name="innerRad" stackId="9" startPc="268436525"/>
+        <entry endPc="268436908" name="outerRad" stackId="8" startPc="268436525"/>
+        <entry endPc="268436908" name="sY" stackId="5" startPc="268436525"/>
+        <entry endPc="268436908" name="sX" stackId="4" startPc="268436525"/>
+        <entry endPc="268437449" name="upperX" stackId="14" startPc="268437004"/>
+        <entry endPc="268437449" name="dx" stackId="13" startPc="268437004"/>
+        <entry endPc="268437462" name="i" stackId="12" startPc="268437004"/>
+        <entry endPc="268437462" name="coords" stackId="11" startPc="268436911"/>
+        <entry endPc="268437462" name="height" stackId="3" startPc="268436473"/>
+        <entry endPc="268437462" name="width" stackId="2" startPc="268436473"/>
+        <entry endPc="268437463" name="dc" stackId="1" startPc="268436469"/>
+        <entry endPc="268437614" name="height" stackId="3" startPc="268437463"/>
+        <entry endPc="268437614" name="width" stackId="2" startPc="268437463"/>
+        <entry endPc="268437614" name="targetDc" stackId="1" startPc="268437463"/>
+        <entry endPc="268437891" name="height" stackId="3" startPc="268437614"/>
+        <entry endPc="268437891" name="width" stackId="2" startPc="268437614"/>
+        <entry endPc="268437891" name="targetDc" stackId="1" startPc="268437614"/>
+        <entry endPc="268438875" name="battery" stackId="4" startPc="268437895"/>
+        <entry endPc="268438875" name="batteryStatus" stackId="5" startPc="268437895"/>
+        <entry endPc="268438876" name="dc" stackId="1" startPc="268437891"/>
+        <entry endPc="268438876" name="batteryY" stackId="3" startPc="268437891"/>
+        <entry endPc="268438876" name="batteryX" stackId="2" startPc="268437891"/>
+        <entry endPc="268438927" name="info" stackId="1" startPc="268438876"/>
+        <entry endPc="268439242" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268438939"/>
+        <entry endPc="268439242" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268438939"/>
+        <entry endPc="268439243" name="dc" stackId="1" startPc="268438927"/>
+    </localVars>
+    <annotations/>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="ConnectIQApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="ConnectIQApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="ConnectIQApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onPosition" parent="ConnectIQApp">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="ConnectIQApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="ConnectIQView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="ConnectIQView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="ConnectIQView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="ConnectIQView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="ConnectIQView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="ConnectIQView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="ConnectIQView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawTickMarks" parent="ConnectIQView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawArborInCenter" parent="ConnectIQView">
+            <param id="targetDc"/>
+            <param id="width"/>
+            <param id="height"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawHourLabels" parent="ConnectIQView">
+            <param id="targetDc"/>
+            <param id="width"/>
+            <param id="height"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawBattery" parent="ConnectIQView">
+            <param id="dc"/>
+            <param id="batteryX"/>
+            <param id="batteryY"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setPosition" parent="ConnectIQView">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+            <param id="dc"/>
+            <documentation>
+                <![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]>
+            </documentation>
+        </functionEntry>
+    </functions>
+    <dataEntryOffsetMappings>
+        <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry offset="182" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="261" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="300" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="331" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="362" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="393" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="432" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="471" parentId="globals" symbolId="ConnectIQView" type="class"/>
+        <dataEntry offset="654" parentId="globals" symbolId="ConnectIQApp" type="class"/>
+    </dataEntryOffsetMappings>
+</debugInfo>
